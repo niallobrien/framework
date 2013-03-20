@@ -284,7 +284,7 @@ class Str {
 	 *  @param  string  $value
 	 *  @return string
 	 */
-	public static function lower()
+	public static function lower($value)
 	{
 		return mb_strtolower($value);
 	}
@@ -295,7 +295,7 @@ class Str {
 	 *  @param  string  $value
 	 *  @return string
 	 */
-	public static function upper()
+	public static function upper($value)
 	{
 		return mb_strtoupper($value);
 	}
