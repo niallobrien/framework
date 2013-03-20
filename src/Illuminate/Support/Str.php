@@ -277,5 +277,27 @@ class Str {
 
 		return str_replace(' ', '', $value);
 	}
+	
+	/**
+	 * Convert a value to lower case.
+	 *
+	 *  @param  string  $value
+	 *  @return string
+	 */
+	public static function lower()
+	{
+		return mb_strtolower($value);
+	}
+
+	/**
+	 * Convert a value to upper case.
+	 *
+	 *  @param  string  $value
+	 *  @return string
+	 */
+	public static function upper()
+	{
+		return mb_strtoupper($value);
+	}
 
 }
